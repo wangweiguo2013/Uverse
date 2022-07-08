@@ -1,0 +1,23 @@
+#crowdApp {
+    .el-table__header {
+        height: 40px;
+
+        th.el-table__cell {
+            background-color: #F5F7FA;
+            border: none;
+        }
+    }
+
+    .el-button {
+        border-radius: 2px;
+    }
+
+
+    .el-input {
+        .el-input__wrapper {
+            border-radius: 0;
+            border-color: #E3E7ED;
+        }
+    }
+
+}
