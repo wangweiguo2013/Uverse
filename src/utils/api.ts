@@ -19,7 +19,7 @@ export const uploadChunk = ({ chunk, hash, filename }, onUploadProgress) => {
 export const mergeChunks = (data) => {
     return request({
         method: 'post',
-        url: '',
+        url: 'http://localhost:3000/merge',
         headers: {
             'Content-Type': 'application/json'
         },

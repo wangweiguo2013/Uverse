@@ -25,5 +25,8 @@ export default defineConfig({
           assetFileNames: `assets/[name].[ext]`
         }
     }
+  },
+  server: {
+    port: 4000
   }
 })

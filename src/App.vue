@@ -14,6 +14,5 @@ body {
 
 .container {
   padding: 24px;
-  background-color: #f2f4f5;
 }
 </style>
