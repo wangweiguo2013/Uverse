@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.6",
@@ -20,20 +21,20 @@
     "vue-router": "^4.0.16"
   },
   "devDependencies": {
-    "@types/jest": "^28.1.4",
     "@types/lodash-es": "^4.17.6",
     "@types/node": "^18.0.0",
     "@vitejs/plugin-vue": "^2.3.3",
+    "c8": "^7.11.3",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^28.1.2",
     "prettier": "^2.4.0",
     "sass": "^1.52.3",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
+    "vitest": "^0.18.0",
     "vue-tsc": "^0.34.7"
   }
 }

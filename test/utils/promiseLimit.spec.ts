@@ -1,10 +1,11 @@
-import promiseLimit from '../../src/utils/promiseLimit'
-describe('promise limit', () => {
-    it('controls promise count', () => {
-        const p: any[] = []
-        for (let i = 0; i < 20; i++) {
-            p.push(new Promise(resolve => resolve))
-        }
-        expect(promiseLimit(p, 4)).resolves.toBe([])
-    })
+import { assert, describe, expect, it } from 'vitest'
+
+describe('promise limit ', () => {
+  it('test', () => {
+    assert.equal(3,3)
+  })
+  it('snapshot', () => {
+    const text = 'whatever'
+    expect(text).toMatchSnapshot()
+  })
 })

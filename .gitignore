@@ -30,3 +30,9 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# lockfile
+pnpm-lock.yaml
+
+# coverage
+/coverage
